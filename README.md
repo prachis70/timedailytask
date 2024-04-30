@@ -66,7 +66,7 @@ Timer.periodic(Duration(seconds: 1), (timer) {
 # 6) What is Timer class with example ?
 A countdown timer that can be configured to fire once or repeatedly.
 
-## Example:
+##  Example:
 
 ```bash
 void main()
@@ -85,6 +85,9 @@ void main()
 
 ```
 # 7)What is Timer.periodic and use with Example?
+
+allows us to schedule future actions and provides us with the control mechanisms to start, cancel, and reset these timers.
+## Example
 ```bash
 import 'dart:async';
 import 'dart:io';
