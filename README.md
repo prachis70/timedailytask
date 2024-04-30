@@ -8,23 +8,17 @@
 
 Asynchronous programming is a programming paradigm that allows tasks or operations to run independently and concurrently, without waiting for each other to complete before moving on to the next task. In traditional synchronous programming, tasks are executed one after another, and the program waits for each task to finish before proceeding to the next one.
 
-#2) What is Future Class ?
+2) What is Future Class ?
+A future (lower case "f") is an instance of the Future (capitalized "F") class. A future represents the result of an asynchronous operation, and can have two states: uncompleted or completed. info Note. Uncompleted is a Dart term referring to the state of a future before it has produced a value.
 
- A future (lower case "f") is an instance of the Future (capitalized "F") class. A future represents the result of an asynchronous operation, and can have two states: uncompleted or completed. info Note. Uncompleted is a Dart term referring to the state of a future before it has produced a value.
-
-
-#3) What is Duration class & Future.delayed() constructor with Example ?
-
-: Duration class:  
+3) What is Duration class & Future.delayed() constructor with Example ?
+Duration class:
 The Duration class represents an interval of time in seconds or nanoseconds
 
-: future.delay:   
+future.delay:
 enables you to create a future that runs its computation after a prespecified duration.
 
-
-## Example:
-
-```bash
+Example:
 import'Dart:io';
 void main()
 {
@@ -35,21 +29,15 @@ void main()
     }
     ); print("hello php");
 }
+4) What is the Use of the async & await keyword?
+async: You can use the async keyword before a function's body to mark it as asynchronous
 
-```
+await: allows you to delay the execution of an async function until the awaited Future has finished.
 
-#4) What is the Use of the async & await keyword?
-async:
-You can use the async keyword before a function's body to mark it as asynchronous
+5) What is Recursion ? With Example?
+Dart Recursion is the method where a function calls itself as its subroutine.
 
-await:
-allows you to delay the execution of an async function until the awaited Future has finished.
-
-#5) What is Recursion ? With Example?
-Dart Recursion is the method where a function calls itself as its subroutine. 
- ## Example:
-
-```bash
+Example:
 
 void main()
 {var count=15;
@@ -64,13 +52,10 @@ Timer.periodic(Duration(seconds: 1), (timer) {
  }
 );
 }
-```
-#6) What is Timer class with example ?
+6) What is Timer class with example ?
 A countdown timer that can be configured to fire once or repeatedly.
 
-## Example:
-
-```bash
+Example:
 void main()
 {
   
@@ -84,10 +69,7 @@ void main()
     );
 
 }
-
-```
-# 7)What is Timer.periodic and use with Example?
-```bash
+7)What is Timer.periodic and use with Example?
 import 'dart:async';
 import 'dart:io';
 void main()
@@ -95,4 +77,3 @@ void main()
   print("Hyeeee.....");
   Timer.periodic(Duration(seconds: 1), (timer) {print("hello....");});
 }
-```
