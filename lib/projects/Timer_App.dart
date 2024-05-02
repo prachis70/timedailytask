@@ -64,7 +64,7 @@ class _clockPageState extends State<clockPage> {
                 RichText(text: TextSpan(children: [
                   TextSpan(text: '\n\n\n${dateTime.hour%12}:${dateTime.minute}',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 40,color: Colors.white)),
                   TextSpan(text: '${(dateTime.hour>12)?' am\n':' pm\n'}',style: TextStyle(fontSize: 15)),
-                  TextSpan( text:'$day, $month ${dateTime.day}',style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold,color: Colors.white)),
+                  TextSpan( text:'$day, $month ${dateTime.day}',style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.white)),
                 ])),
               ],
             ),
