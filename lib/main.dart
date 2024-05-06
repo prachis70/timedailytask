@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:timedailytask/projects/Timer_App.dart';
-import 'package:timedailytask/projects/pr1.dart';
+import 'package:timedailytask/projects/Timer_App/Analog_clock.dart';
+import 'package:timedailytask/projects/Timer_App/Analog_clock.dart';
+import 'package:timedailytask/projects/Timer_App/Digital_clock.dart';
+import 'package:timedailytask/projects/Flutter_Buttons/pr1.dart';
 void main()
 {
   runApp(Timerpro());
@@ -13,8 +15,9 @@ class Timerpro extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        //'/':(context)=>TimerButton(),
-        '/':(context) => clockPage(),
+        //'/':(context) => clockPage(),
+        '/an':(context) => Analogclock(),
+
 
       },
     );
