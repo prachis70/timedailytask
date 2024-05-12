@@ -1,7 +1,6 @@
 # timedailytask
 <img src="https://github.com/prachis70/timedailytask/assets/149580593/272d41e9-9be1-49a4-9f96-25af83e9f264" height=22% width=35%>
 <img src="https://github.com/prachis70/timedailytask/assets/149580593/40d399a8-2db2-4aed-9e79-a52fe537bd39" height=22% width=35%>
-<video src="https://github.com/prachis70/timedailytask/assets/149580593/8ae6095d-7c1b-4b9a-ab10-65c818ad8861" height=22% width=35%>
     
 # 1)What is  Asynchronous Programming? 
 
@@ -97,6 +96,11 @@ void main()
   Timer.periodic(Duration(seconds: 1), (timer) {print("hello....");});
 }
 ```
-<img src="https://github.com/prachis70/timedailytask/assets/149580593/272d41e9-9be1-49a4-9f96-25af83e9f264" height=22% width=35%>
-<img src="https://github.com/prachis70/timedailytask/assets/149580593/40d399a8-2db2-4aed-9e79-a52fe537bd39" height=22% width=35%>
-<video src="https://github.com/prachis70/timedailytask/assets/149580593/8ae6095d-7c1b-4b9a-ab10-65c818ad8861" height=22% width=35%>
+# ⌚Timer_App⌚
+<img src="https://github.com/prachis70/timedailytask/assets/149580593/141e1f83-5857-44bc-bc92-d9c573d19cba" heigth=22% width=35%>
+<img src="https://github.com/prachis70/timedailytask/assets/149580593/7130df42-1cd7-42ca-bc52-b54458d83c07" heigth=22% width=35%>
+<img src="https://github.com/prachis70/timedailytask/assets/149580593/f7afad17-91eb-4402-9078-3e92488d4830" heigth=22% width=35%>
+<video src="https://github.com/prachis70/timedailytask/assets/149580593/1dc9b405-1af0-4915-92e1-9656ce51b31f" heigth=22% width=35%>
+
+
+
