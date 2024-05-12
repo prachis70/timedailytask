@@ -37,11 +37,6 @@ class _clockPageState extends State<clockPage> {
       });
     }
     );
-    // BottomAppBar(
-    //   child: BottomAppBar(
-    //
-    //   ),
-    // )
     return Scaffold(
       body: Container(
         height: 870,
