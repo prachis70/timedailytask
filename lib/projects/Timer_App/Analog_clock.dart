@@ -55,11 +55,9 @@ class _AnalogclockState extends State<Analogclock> {
         color: Colors.grey,
         image: DecorationImage(
           fit: BoxFit.cover,
-          image: AssetImage('assets/imgs/clock3.jpg'),
+          image: AssetImage('assets/imgs/pic2.avif'),
         ),
-
       ),
-
       child: Column(
         children: [
           RichText(text: TextSpan(children:[
@@ -68,6 +66,7 @@ class _AnalogclockState extends State<Analogclock> {
             TextSpan( text:'$day, $month ${dateTime.day}',style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.white)),
           ])
           ),
+          SizedBox( height: 30,),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Container(
@@ -86,25 +85,25 @@ class _AnalogclockState extends State<Analogclock> {
                         child: ((index+1)%5==0)
                             ?
                         const VerticalDivider(
-                          thickness: 4,
+                          thickness: 3,
                           color:Colors.blue,
                           indent: 0,
-                          endIndent: 175,
+                          endIndent: 180,
                         )
                             :
                         const VerticalDivider(
                           thickness: 3,
-                          color: Colors.black,
+                          color: Colors.white,
                           indent: 0,
-                          endIndent: 180,
+                          endIndent: 185,
                         ),
                       )),
                       Transform.rotate(angle:  ( dateTime.second*6*pi/180),
                         child: VerticalDivider(
-                          color: Colors.black,
+                          color: Colors.white,
                           endIndent: 85,
                           indent: 30,
-                          thickness: 5,
+                          thickness: 2,
                         ),
                       ),
                       Transform.rotate(angle:  ( dateTime.minute*6*pi/180),
@@ -112,7 +111,7 @@ class _AnalogclockState extends State<Analogclock> {
                           color: Colors.pink.shade300,
                           endIndent: 85,
                           indent: 40,
-                          thickness: 5,
+                          thickness: 3,
                         ),
                       ),
                       Transform.rotate(angle:
@@ -121,7 +120,7 @@ class _AnalogclockState extends State<Analogclock> {
                           color: Colors.teal,
                           endIndent: 85,
                           indent: 60,
-                          thickness: 5,
+                          thickness: 4,
                         ),
                       ),
                       Container(

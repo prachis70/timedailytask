@@ -45,14 +45,14 @@ class _strapPageState extends State<strapPage> {
         body:Column(
           children: [
             Container(
-              height: 760,
+              height: 866,
               width: 500,
               decoration: const BoxDecoration(
-                  color: Colors.black,
+                  color: Colors.blue,
                   image: DecorationImage(
                       fit: BoxFit.cover,
                       image: AssetImage(
-                          'assets/images/sky2.jpeg'
+                          'assets/imgs/pic2.avif'
                       )
                   )
               ),
@@ -64,8 +64,6 @@ class _strapPageState extends State<strapPage> {
                       height: 30,
                       width: 30,
                       decoration: BoxDecoration(
-
-
                       ),
                       child: GestureDetector(onTap:() {
                         Navigator.of(context).pop();
@@ -92,7 +90,7 @@ class _strapPageState extends State<strapPage> {
                       child: CircularProgressIndicator(
                         strokeWidth: 5,
                         value: dateTime.minute/60,
-                        color: Colors.pink,
+                        color: Colors.greenAccent,
                       ),
                     ),
                   ),
@@ -103,7 +101,7 @@ class _strapPageState extends State<strapPage> {
                       child: CircularProgressIndicator(
                         strokeWidth: 7,
                         value:((dateTime.hour%12)+dateTime.minute/60)/12,
-                        color:Colors.black,
+                        color:Colors.redAccent,
                       ),
                     ),
                   ),
@@ -156,7 +154,8 @@ class _strapPageState extends State<strapPage> {
                               fontSize: 26,color: Colors.white
                           ),
                           )
-                        ],),
+                        ],
+                      ),
                     ),
                   ),
                   Center(
@@ -173,21 +172,14 @@ class _strapPageState extends State<strapPage> {
                       ),
                     ),
                   )
-
-
-
-                ],),
-
-
+                ],
+              ),
             )
           ],
         )
-
-
     );
   }
 }
-
 DateTime dateTime=DateTime.now();
 String day="";
 String month="";
