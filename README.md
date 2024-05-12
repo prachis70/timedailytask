@@ -2,9 +2,7 @@
 <img src="https://github.com/prachis70/timedailytask/assets/149580593/272d41e9-9be1-49a4-9f96-25af83e9f264" height=22% width=35%>
 <img src="https://github.com/prachis70/timedailytask/assets/149580593/40d399a8-2db2-4aed-9e79-a52fe537bd39" height=22% width=35%>
 <video src="https://github.com/prachis70/timedailytask/assets/149580593/8ae6095d-7c1b-4b9a-ab10-65c818ad8861" height=22% width=35%>
-
-
-
+    
 # 1)What is  Asynchronous Programming? 
 
 Asynchronous programming is a programming paradigm that allows tasks or operations to run independently and concurrently, without waiting for each other to complete before moving on to the next task. In traditional synchronous programming, tasks are executed one after another, and the program waits for each task to finish before proceeding to the next one.
