@@ -86,12 +86,6 @@ class _clockPageState extends State<clockPage> {
                   },
                   child: Icon(Icons.access_time_filled_rounded),
                 ),
-                // FloatingActionButton(
-                //   onPressed: () {
-                //     Navigator.of(context).pushNamed('/an');
-                //   },
-                //   child: Icon(Icons.access_time_filled_rounded),
-                // ),
               ],
             )
           ],
