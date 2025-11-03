@@ -27,7 +27,7 @@ import'Dart:io';
 void main()
 {
     Future.delayed(Duration
-    (seconds:2),()
+    (seconds:1),()
     { 
       print("hello flutter");
     }
