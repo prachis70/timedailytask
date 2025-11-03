@@ -74,7 +74,7 @@ void main()
   
   Timer(
 
-    Duration(seconds: 1),
+    Duration(seconds: 2),
     () {
 
     print("hello javaaa");
